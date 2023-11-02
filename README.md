@@ -1,7 +1,9 @@
 # meesho-project
 
-Meesho Project (React.js)
+Meesho Project (React.js) 
 The Meesho Project is a web application built using React.js. It's designed to simplify e-commerce operations, allowing users to manage products, inventory, and customer interactions with ease. This project streamlines the selling process and enhances user experience.
+
+https://classy-faun-fa7469.netlify.app/
 
 Key Features:
 
