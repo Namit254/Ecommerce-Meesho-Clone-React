@@ -1,0 +1,74 @@
+#mainn{
+    background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);
+    height: 100vh;
+}
+.FormContainer{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.SignupPoster{
+    width: 430px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.formm{
+    display: flex;
+    width: 430px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#fieldNum{
+    height: 2rem;
+    width: 70%;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0.6rem;
+    font-size: 20px;
+}
+
+#fieldNum:focus{
+    border: none;
+}
+#fieldNum:focus:not(:empty) {
+    border: none;
+  }
+
+.buttonn{
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+}
+
+.continue{
+    height: 3rem;
+    background-color: rgba(195, 33, 154, 0.879);
+    font-size: larger;
+}
+
+.condition{
+    color: rgba(184, 63, 148, 0.999);
+    height: 5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.logOutButtonContainer{
+    height: 70vh;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

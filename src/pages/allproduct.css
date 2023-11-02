@@ -1,0 +1,38 @@
+.allProductsContainer{
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+}
+
+.filters{
+    /* background-color: aqua; */
+    border: 1px solid rgb(194, 194, 194);
+    width: 20%;
+    padding: 2rem;
+}
+
+.productsList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding: 0.5rem;
+}
+.searchField{
+    display: flex;
+    padding: 1rem; 
+    width: 100%;
+    justify-content: center;
+}
+.categoryFilter{
+    margin-top: 1rem;
+}
+
+.searchBar{
+   width:50%;
+   padding: 1rem;
+   font-size: 20px;
+   border: 1px solid grey;
+   border-radius: 10px;
+}

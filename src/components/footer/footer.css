@@ -1,0 +1,60 @@
+.playStore{
+    height: 120px;
+    cursor: pointer;
+}
+
+.appstore{
+    height: 70px;
+    cursor: pointer;
+}
+
+.footerSection{
+    display: flex;
+    margin-top: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgb(208, 206, 206);
+    border-right: none;
+    border-bottom: 1px solid rgb(208, 206, 206);
+    border-left: none;
+}
+
+.firstSection{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: space-evenly;
+}
+
+.firstSectionDetails{
+    padding-left: 2rem;
+}
+
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fourthSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconsDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.downloadPosters{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 700px){
+    .footerSection{
+        padding: 1rem 1rem 1rem 3rem;
+        justify-content: center;
+    }
+
+}

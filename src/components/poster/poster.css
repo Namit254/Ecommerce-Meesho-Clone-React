@@ -1,0 +1,30 @@
+.poster{
+    margin: 2rem;    
+}
+
+.posterContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.details{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(249, 242, 246);
+}
+.pinkky{
+    height: 2.5rem;
+    
+    /* background-color: palevioletred; */
+    border: none;
+    font-weight: bolder;
+}
+
+@media (max-width:880px){
+    .poster{
+        display: none;
+    }
+}
